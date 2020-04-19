@@ -1,0 +1,17 @@
+import sys
+A = int(sys.stdin.readline())
+B = int(sys.stdin.readline())
+C = int(sys.stdin.readline())
+
+ans = (A * B * C)
+ans = str(ans)
+print(ans.count('0'))
+print(ans.count('1'))
+print(ans.count('2'))
+print(ans.count('3'))
+print(ans.count('4'))
+print(ans.count('5'))
+print(ans.count('6'))
+print(ans.count('7'))
+print(ans.count('8'))
+print(ans.count('9'))
